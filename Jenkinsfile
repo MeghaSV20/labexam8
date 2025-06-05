@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-repo-url.git'
+                git 'https://github.com/MeghaSV20/labexam8.git'
             }
         }
         stage('Build') {
